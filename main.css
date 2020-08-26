@@ -416,18 +416,10 @@ textarea {
     color: #fff;
 }
 
-.main-section {
-    width: 100%;
-    max-width: 650px;
-    padding: 30px;
-    margin: 0 40px 20px 256px;
-    float: left;
-    border: 1px solid #ddd;
-    background: #fff;
-}
-#main-container {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    min-height: 100%;
-    align-items: center;
+.submitBtn {
+    border-radius: 15px;
+    color: #fff;
+    background-color: #96d6d6;
+    padding: 15px;
+
 }
