@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <div class='container'>
+            <section class='left'>
+                <img src='images/lion.jpg' alt='avatar image' class='avatar'>
+                <h2>
+                    <span>Moses <strong>Kamara</strong></span>
+                </h2>
+                <p class='title'>Web Developer</p>
+                <figure class='social-links'>
+                    <a href='https://www.linkedin.com/in/moses-kamara/' target='_blank'>
+                        <img src='images/iconmonstr-linkedin-3.svg' alt='linkedin image' class='linkedin-icon'>
+                    </a>
+                    <a href='https://github.com/kamara-moses' target='_blank'>
+                        <img src='images/git.png' alt='calender icon' class='github'>
+                    </a>
+                    <a href='#' target='_blank'>
+                        <img src='images/iconmonstr-instagram-11.svg' alt='instagram image' class='instagram-icon'>
+                    </a>
+                </figure>
+                <div class='contact'>
+                    <div class='location-container'>
+                        <img src='images/loc.png' alt='calender icon' class='location'>
+                        <span>Mountlake Terrace, WA</span>
+                    </div>
+                    <div class='phone-container'>
+                        <img src='images/phone.png' alt='calender icon' class='phone'>
+                        <span>(206) 302-8844</span>
+                    </div>
+                    <div class='email-container'>
+                        <a href='mailto:kamara.moses@yahoo.com' class='coa'>Email Me</a>
+                    </div>
+                </div>
+            </section>
+            <section class='right'>
+                <header class='top-section'>
+                    <div class='top-container'>
+                        <div class='info'>
+                            <h2>Contact</h2>
+                            <hr class='divider'>
+                        </div>
+                        <figure class='ham-menu'>
+                            <a href='#'>
+                                <img src='images/ham-icon.png' alt='ham menu' class='ham-icon'>
+                            </a>
+                            <ul class='active'>
+                                <li>
+                                    <a href='index.html'>About</a>
+                                </li>
+                                <li>
+                                    <a href='portfolio.html'>Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href='Moses Kamara Resumé.pdf'>Resumé</a>
+                                </li>
+                            </ul>
+                        </figure>
+                </header>
+                <div class=contact-info>
+                        <label id='name-label' for='name'>Name</label>
+                        <input type='text' name='name' id='name' class='form-control' placeholder='Enter your name' required>
+                        <label id='number-label' for='number'>Phone</label>
+                        <input type='text' name='phone-number' id='number' min='6' max='20' class='form-control' placeholder='Enter your number'>
+                        <label id=email-label for='email'>Email</label>
+                        <input type='email' name='email' id='email' class='form-control' placeholder='Enter email address' required>
+                        <label id='message-label' for='message'>Message</label>
+                        <textarea type='textarea' class='input-textarea' name='message' id='message' placeholder='Write message here'></textarea>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
